@@ -1,0 +1,205 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* My style */
+body {
+  font: 12px/26px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+  background-color: #f4f4f3;
+  background-image: url(picture/ignasi_pattern_s.png);
+}
+.container {
+  width: 800px;
+  margin: auto;
+  background-color: #ffffff;
+}
+header {
+  padding: 20px;
+  padding-bottom: 10px;
+}
+header .judul {
+  font-size: 40px;
+  font-weight: bold;
+}
+nav ul li {
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+nav a {
+  text-decoration: none;
+  color: #ffa90a;
+  padding: 3px;
+}
+nav a:hover {
+  background-color: #263337;
+}
+
+.hero {
+  height: 400px;
+  background-image: url(picture/hero.jpg);
+  background-size: cover;
+  background-position: 0px -100px;
+  border-top: 5px solid #a50006;
+  border-bottom: 5px solid #263337;
+}
+
+main {
+  padding: 20px;
+}
+
+main h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+main .penulis {
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+main .penulis a {
+  text-decoration: none;
+  color: #ffa90a;
+}
+main p {
+  margin-bottom: 20px;
+  font-size: 14px;
+  word-spacing: 0.5px;
+  line-height: 20px;
+  text-align: justify;
+}
+
+footer {
+  padding: 20px;
+  background-color: #ce5511;
+}
+
+footer p {
+  text-align: center;
+  font-size: 12px;
+  color: #ffffff;
+}
